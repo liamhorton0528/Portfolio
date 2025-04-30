@@ -9,7 +9,7 @@ function App() {
         <p>
           The beginning of my portfolio website!!! 
         </p>
-        <p>please work...</p>
+        <p>i think this is the one</p>
         <a
           className="App-link"
           href="https://reactjs.org"
