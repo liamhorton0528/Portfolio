@@ -9,7 +9,7 @@ function App() {
         <p>
           The beginning of my portfolio website!!! 
         </p>
-        <p>i think this is the one</p>
+        <p>Added firewall rule, maybe this time :/</p>
         <a
           className="App-link"
           href="https://reactjs.org"
