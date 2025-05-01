@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  height: 2000px;
+  /* background-color:rgb(212, 224, 254); */
+  background-color: black;
+  font-family: 'Mulish', sans-serif;
+  color: white;
 }
 
 .App-logo {
