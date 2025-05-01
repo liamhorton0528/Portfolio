@@ -12,6 +12,11 @@
     width: 100%;
     height: 5%;
 }
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
 
 .nav-item {
     padding: 5px 20px 5px 20px;
