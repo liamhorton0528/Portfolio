@@ -9,7 +9,7 @@ function App() {
         <p>
           The beginning of my portfolio website!!! 
         </p>
-        <p>Added firewall rule, fixed webhook code, maybe this time it will work :/</p>
+        <p>IT WORKED!!!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
