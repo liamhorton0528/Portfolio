@@ -18,6 +18,10 @@
     }
   }
 
+.App-logo {
+    margin-top: 125px;
+}
+
 .nav-item {
     padding: 5px 20px 5px 20px;
     position:sticky;
