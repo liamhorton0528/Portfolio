@@ -5,6 +5,7 @@
   background-color: black;
   font-family: 'Mulish', sans-serif;
   color: white;
+  width: auto fit-content;
 }
 
 .App-logo {
