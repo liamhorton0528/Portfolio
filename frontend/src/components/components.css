@@ -67,7 +67,6 @@
     align-items: center;
     justify-self: center;
     flex-wrap: wrap;
-    width: 60%;
 }
 
 a {
@@ -87,6 +86,7 @@ a {
     display: flex;
     width: auto fit-content;
     height:auto fit-content;
+    max-width: 60%;
   }
   
   .home-greeting::before {
