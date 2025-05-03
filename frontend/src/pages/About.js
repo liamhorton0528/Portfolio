@@ -7,7 +7,7 @@ export default function About() {
     exit={{opacity: 0, y: -20}}
     transition={{duration: 0.6, ease: "easeInOut"}}
     >
-        <h2>About Page</h2>
+        <h2>About</h2>
         <img className="App-logo" src="./logo512.png" style={{height: '300px', width: '300px'}}/>
     </motion.div>
 }

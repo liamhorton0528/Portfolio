@@ -8,6 +8,7 @@ import About from './pages/About';
 import Education from './pages/Education';
 import Navbar from './components/Navbar';
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -18,6 +19,7 @@ function AnimatedRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Education" element={<Education />} />
+          <Route path="/Projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
     </AnimatePresence>
