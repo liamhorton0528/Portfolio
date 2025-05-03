@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  width: auto fit-content;
 }
 
 .App {
@@ -9,7 +10,7 @@ body {
   
   font-family: 'Mulish', sans-serif;
   color: white;
-  width: auto fit-content;
+  /* width: auto fit-content; */
 }
 
 .App-logo {
