@@ -5,7 +5,7 @@
     background-image: url("../../public/waves.png");
     border-left: 2px solid crimson;
     border-bottom: 2px solid crimson;
-    border-right: px solid crimson;
+    border-right: 2px solid crimson;
     margin: 0;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -76,7 +76,7 @@ a {
 
 .home-greeting {
     position: relative; 
-    font-size:xx-large;
+    font-size: calc(10px + 2vmin);
     text-align: left;
     padding: 2%;
     border: 1px solid transparent; 
@@ -85,6 +85,8 @@ a {
     z-index: 1;
     color: white;
     display: flex;
+    width: auto fit-content;
+    height:auto fit-content;
   }
   
   .home-greeting::before {
@@ -110,6 +112,7 @@ a {
     align-self:center;
     justify-self: center;
     padding: 2%;
+    width: calc(50px + 30vmin);
 }
 
 .home-greeting-text {

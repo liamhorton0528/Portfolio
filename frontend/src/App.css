@@ -5,12 +5,8 @@ body {
 
 .App {
   text-align: center;
-  /* background-color:rgb(212, 224, 254); */
-  /* background-image:url('./darkness.png'); */
-  
   font-family: 'Mulish', sans-serif;
   color: white;
-  /* width: auto fit-content; */
 }
 
 .App-logo {
