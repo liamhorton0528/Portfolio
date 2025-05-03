@@ -1,8 +1,10 @@
+body {
+  background-color: black;
+}
+
 .App {
   text-align: center;
-  height: 2000px;
   /* background-color:rgb(212, 224, 254); */
-  background-color:black;
   /* background-image:url('./darkness.png'); */
   
   font-family: 'Mulish', sans-serif;
