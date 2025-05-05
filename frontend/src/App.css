@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
-  width: auto fit-content;
 }
 
 .App {
