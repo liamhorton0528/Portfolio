@@ -124,7 +124,7 @@ function ImageCarousel() {
 
       <div className="carousel-image-wrapper">
         <Image src={images[index].src} alt={images[index].alt} />
-        <p className="carousel-caption">{images[index].alt}</p>
+        <p className="carousel-caption"><b>{images[index].alt}</b></p>
       </div>
 
       <button className="carousel-button right" onClick={nextSlide}>
