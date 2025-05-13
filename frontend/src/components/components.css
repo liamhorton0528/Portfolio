@@ -73,13 +73,18 @@
 
 a {
     color: inherit;
+    transition: all ease 0.3s;
 }
 
-.home-greeting {
+a:hover {
+    color:cornflowerblue;
+}
+
+.home-block {
     position: relative; 
     font-size: calc(6px + 2vmin);
-    text-align: left;
-    padding: 2%;
+    text-align:left;
+    padding: 1rem;
     border: 1px solid transparent; 
     border-radius: 25px;
     transition: all ease 0.5s;
@@ -92,7 +97,7 @@ a {
     align-content: center;
   }
   
-  .home-greeting::before {
+  .home-block::before {
     content: '';
     position: absolute;
     inset: 0; /* shorthand for top, right, bottom, left = 0 */
@@ -119,7 +124,7 @@ a {
     max-width: 260px;
 }
 
-.home-greeting-text {
+.home-block-text {
     align-self:center;
     justify-self: center;
     flex:2;
