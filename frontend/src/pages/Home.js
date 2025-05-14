@@ -42,7 +42,7 @@ export default function Home() {
         >
           My goals as a developer are to continuously improve the quality of applications I develop, creating more
            aesthethically pleasing and responsive interfaces, increasingly efficient and fast server-side code, 
-           stronger security implementations, and learning how to dapply these skills and more in new languages.<br/><br/>
+           stronger security implementations, and learning how to apply these skills and more in new languages.<br/><br/>
            A goal that is a bit more relevant to me right now is finding a job. I would really like to focus on web development as 
            I mentioned above, however as long as I'm coding I know I will be happy. What I love above this line of work is that we are 
            constantly learning and working to improve ourselves, not just because of the need to but because there are new and exciting 
