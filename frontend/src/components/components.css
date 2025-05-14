@@ -91,7 +91,7 @@ a {
     z-index: 1;
     color: white;
     display: flex;
-    max-width: 60%;
+    max-width: 80%;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -116,12 +116,23 @@ a {
   }
  
 .me {
-    border-radius: 100px;
-    align-self:center;
-    justify-self: center;
-    padding: 2%;
-    width: 12em;
-    max-width: 260px;
+  border-radius: 100px;
+  align-self:center;
+  justify-self: center;
+  margin: 1%;
+  width: 8em;
+  max-width: 260px;
+  border: 4px solid crimson;
+}
+
+.pet {
+  border-radius: 100px;
+  align-self:center;
+  justify-self: center;
+  margin: 1%;
+  width: 12em;
+  max-width: 260px;
+  border: 4px solid crimson;
 }
 
 .home-block-text {

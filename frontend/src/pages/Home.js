@@ -15,7 +15,7 @@ export default function Home() {
       <h2>Home</h2>
 
       <div className="home-block">
-        <Image src={"./me.jpg"} alt={"Picture of me"} />
+        <Image src={"./me.jpg"} alt={"Picture of me"} class={"me"} />
         <motion.p
             className="home-block-text"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -88,7 +88,7 @@ export default function Home() {
 function Image(props) {
   return (
     <motion.img
-        className="me"
+        className={props.class}
         src={props.src}
         alt={props.alt}
         initial={{ opacity: 0, scale: 0.8 }}
@@ -99,11 +99,11 @@ function Image(props) {
 }
 
 const images = [
-  {src: "./cooper.jpg", alt: "Cooper"},
-  {src: "./harley.jpg", alt: "Harley"},
-  {src: "./fiona.jpg", alt: "Fiona"},
-  {src: "./sterling.jpg", alt: "Sterling"},
-  {src: "./felix.jpg", alt: "Felix"},
+  {src: "./cooper.jpg", alt: "Cooper", class: "pet"},
+  {src: "./harley.jpg", alt: "Harley", class: "pet"},
+  {src: "./fiona.jpg", alt: "Fiona", class: "pet"},
+  {src: "./sterling.jpg", alt: "Sterling", class: "pet"},
+  {src: "./felix.jpg", alt: "Felix", class: "pet"},
 ];
 
 function ImageCarousel() {
@@ -123,7 +123,7 @@ function ImageCarousel() {
       </button>
 
       <div className="carousel-image-wrapper">
-        <Image src={images[index].src} alt={images[index].alt} />
+        <Image src={images[index].src} alt={images[index].alt} class={images[index].class} />
         <p className="carousel-caption"><b>{images[index].alt}</b></p>
       </div>
 
